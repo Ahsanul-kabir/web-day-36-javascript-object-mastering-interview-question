@@ -36,6 +36,6 @@ normalPerson.chargeBill.call(friendlyPerson, 500, 200, 10); // parameter comma h
 console.log(friendlyPerson.salary);
 
 
-// apply same kaj kore call er moto but parameter Array er modde deya lage 
+// apply same kaj kore call er moto but parameter Array er modde deya lage
 normalPerson.chargeBill.apply(friendlyPerson, [500, 200, 10]); // parameter array hisabe jbe
 console.log(friendlyPerson.salary);
