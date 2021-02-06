@@ -1,14 +1,15 @@
 // object use bind to borrow method from another object
 
-// bind function er kaj = ek object er function ke onno object er modde use kora.
+// bind function er kaj = ek object er method ke onno object er modde use korar way
 const normalPerson = {
     firstName: 'Rahim',
     lastName: 'Uddin',
     salary: 15000,
-    getFullName: function() {
+    getFullName: function() { // method
         console.log(this.firstName, this.lastName);
     },
-    chargeBill: function(amount) {
+    chargeBill: function(amount) { // method
+        console.log(this);
         this.salary = this.salary - amount;
         return this.salary;
     }
