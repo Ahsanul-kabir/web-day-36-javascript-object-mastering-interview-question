@@ -13,7 +13,6 @@ const normalPerson = {
 
 console.log(normalPerson.getFullName);
 console.log(normalPerson.firstName);
-console.log(normalPerson.getFullName());
+normalPerson.getFullName();
 
-normalPerson.chargeBill(3000);
 console.log(normalPerson.salary);
