@@ -26,6 +26,12 @@ const friendlyPerson = {
 
 }
 
+
+const heroChargeBill = normalPerson.chargeBill.bind(heroPerson);
+heroChargeBill(3000);
+console.log(heroPerson.salary);
+
+
 // call function borrow kore anbe nah but Direct niya asbe
 normalPerson.chargeBill.call(heroPerson, 900, 100, 10);
 normalPerson.chargeBill.call(heroPerson, 3000, 500, 30);
