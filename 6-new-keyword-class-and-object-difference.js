@@ -1,3 +1,7 @@
+// class = same type er onk gula object dorkar tdr template
+
+// new keyword = class theke object banano
+
 class Person {
     constructor(firstName, lastName, salary) {
         this.firstName = firstName;
