@@ -37,10 +37,15 @@
             console.log(this);
             return a + b;
         }
-        add(12, 13);
+        add(12, 13); // window hobe coz , left e kisu nai
 
         anotherObj.sum = add; // anotherObj er modde add function ke enter koraitesi
         anotherObj.sum();
+
+
+        setTimeout(() => {
+            console.log(this); // window hobe coz , left e kisu nai
+        }, 10000);
     </script>
 </body>
 
